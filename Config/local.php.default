@@ -1,0 +1,5 @@
+<?php
+/**
+ * Local PHP settings to overwrite live settings
+ */
+Configure::write('debug', 2);

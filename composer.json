@@ -1,0 +1,36 @@
+{
+	"name": "zynesis/cakephp-boilerplate",
+	"description": "CakePHP boilerplate for Zynesis projects",
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "cakephp/cakephp",
+				"version": "2.3.6",
+				"dist": {
+					"url": "https://github.com/cakephp/cakephp/archive/2.3.6.zip",
+					"type": "zip"
+				},
+				"source": {
+					"url": "https://github.com/cakephp/cakephp/",
+					"type": "git",
+					"reference": "tree/2.3.6/"
+				}
+			}
+		},
+		{
+			"type": "composer",
+			"url": "http://zynesis.github.io/composer-repository/"
+		}
+	],
+	"require":{
+		"cakephp/cakephp": "~2.3",
+		"ceeram/clear_cache": "1.*",
+		"cakephp/debug_kit": "2.2.*@dev",
+		"twitter/bootstrap": "2.3.*",
+		"zynesis/twitter-bootstrap-helper": "dev-3.0-zynesis"
+	},
+	"config":{
+		"vendor-dir":"Vendor"
+	}
+}
