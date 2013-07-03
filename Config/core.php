@@ -324,6 +324,9 @@ if (Configure::read('debug') > 0) {
 // Prefix each application on the same server with a different string, to avoid Memcache and APC conflicts.
 $prefix = 'myapp_';
 
+// To workwround SchemaShell with CakePHP via Composer setup
+Configure::write('App.dir', 'app');
+
 Cache::config('default', array(
 	'engine' => $engine,
 	'mask' => 0666,
