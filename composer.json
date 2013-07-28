@@ -11,7 +11,7 @@
 		"cakephp/cakephp": "~2.3",
 		"ceeram/clear_cache": "1.*",
 		"cakephp/debug_kit": "2.2.*@dev",
-		"twitter/bootstrap": "2.3.*",
+		"twbs/bootstrap": "2.3.*",
 		"zynesis/twitter-bootstrap-helper": "dev-3.0-zynesis"
 	},
 	"config":{
