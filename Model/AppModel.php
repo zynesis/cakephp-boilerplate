@@ -32,4 +32,9 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+	/**
+	 * Disable recursion app-wide, by default. Find explicitly.
+	 */
+	public $recursive = -1;
 }

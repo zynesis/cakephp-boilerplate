@@ -48,6 +48,6 @@ Set up
 
 Notes
 ----
+1. Model recursiveness is set to -1 by default.
+
 1. To clear cache, simply `Console/cake ClearCache.clear_cache`.
-
-
