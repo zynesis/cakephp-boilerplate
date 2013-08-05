@@ -16,7 +16,7 @@ CakePHP plugins:
 
 Other vendor packages:
 
-1. [Bootstrap](https://github.com/twitter/bootstrap)
+1. [Bootstrap 2.3](https://github.com/twbs/bootstrap)
 
 Set up
 --------
@@ -51,3 +51,7 @@ Notes
 1. Model recursiveness is set to -1 by default.
 
 1. To clear cache, simply `Console/cake ClearCache.clear_cache`.
+
+Credits
+----
+Loading of CakePHP via Composer is made possible thanks to [Ceeram's idea](http://ceeram.github.io/blog/2013/06/18/adding-cakephp-as-composer-package/).
