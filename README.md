@@ -20,13 +20,13 @@ Other vendor packages:
 
 Set up
 --------
-1. Install Composer packages
-
-   If you do not yet have Composer installed on your system, follow the guide here on [how to install Composer](http://getcomposer.org/doc/00-intro.md#globally).
+1. Set up a new project directly via Composer
 
    ```bash
-   composer install
+   composer create-project -s dev zynesis/cakephp-boilerplate my-cakephp-project
    ```
+
+   If you do not yet have Composer installed on your system, follow the guide here on [how to install Composer](http://getcomposer.org/doc/00-intro.md#globally).
 
 1. Make these dirs and files writable by web server:
 
