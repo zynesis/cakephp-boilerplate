@@ -16,7 +16,7 @@
 		}
 	],
 	"require":{
-		"cakephp/cakephp": "~2.3",
+		"cakephp/cakephp": "~2.4",
 		"ceeram/clear_cache": "1.*",
 		"cakephp/debug_kit": "2.2.*@dev",
 		"twbs/bootstrap": "2.3.*",
