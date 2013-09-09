@@ -19,8 +19,8 @@ Thumbs.db
 *.zip
 
 # App files
-Vendor
-Plugin
-Config/database.php
-Config/local.php
-tmp
+/Vendor
+/Plugin
+/Config/database.php
+/Config/local.php
+/tmp
