@@ -125,3 +125,5 @@ CakePlugin::load('TwitterBootstrap');
 if (Configure::read('debug') > 0) {
 	CakePlugin::load('DebugKit');
 }
+
+loadLocal();
